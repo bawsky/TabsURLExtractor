@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "Tabs URL Extractor",
+    "version": "1.0",
+    "description": "Easily extract and save the URLs of all your open tabs. With a simple click, this extension generates a list of all URLs from your currently open tabs and saves them into a text file.",
+    "permissions": ["tabs", "activeTab", "storage", "downloads"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "images/icon16.png",
+        "48": "images/icon48.png",
+        "128": "images/icon128.png"
+      }
+    },
+    "icons": {
+      "16": "images/icon16.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
+    }
+  }
+  
